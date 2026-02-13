@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>King's Marketplace</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <!-- Placeholder Crown SVG -->
+                <path d="M25 5 L35 15 L45 10 L40 20 L50 30 L40 30 L35 40 L25 35 L15 40 L20 30 L10 30 L20 20 L15 10 L25 5 Z" fill="gold"/>
+            </svg>
+        </div>
+        <h1>King's Marketplace</h1>
+    </header>
+    <main>
+        <section class="menu-section">
+            <h2>Street Food Favorites</h2>
+            <div class="menu-grid">
+                <div class="menu-item">
+                    <img src="5e9d24b240dbca12fa19ac5b74dfc4e5.jpg" alt="Bakso Malang">
+                    <h3>Bakso Malang - 20k</h3>
+                    <p>Kuah kaldu gurih, komplit dengan siomay & tahu.</p>
+                    <button class="add-to-cart-btn" data-item="Bakso Malang">Add to Cart</button>
+                </div>
+                <div class="menu-item">
+                    <img src="2053ece98fdd938c7eebdec97e33deec.jpg" alt="Sate Taichan">
+                    <h3>Sate Taichan - 25k</h3>
+                    <p>Sate ayam tanpa bumbu kacang, pedas sambal gurih.</p>
+                    <button class="add-to-cart-btn" data-item="Sate Taichan">Add to Cart</button>
+                </div>
+                <div class="menu-item">
+                    <img src="295056465c6f9374eea93e6c1807e3c3.jpg" alt="Mie Ayam Jamur">
+                    <h3>Mie Ayam Jamur - 18k</h3>
+                    <p>Mie kenyal dengan topping ayam jamur lezat.</p>
+                    <button class="add-to-cart-btn" data-item="Mie Ayam Jamur">Add to Cart</button>
+                </div>
+                <div class="menu-item">
+                    <img src="03a19f2612751cbf6db62295dc7d0fa8.jpg" alt="Es Campur">
+                    <h3>Es Campur - 15k</h3>
+                    <p>Manis segar aneka buah dan agar-agar.</p>
+                    <button class="add-to-cart-btn" data-item="Es Campur">Add to Cart</button>
+                </div>
+            </div>
+        </section>
+        <aside class="chat-widget">
+            <div class="total-badge" id="total-badge">Total: Rp 0</div>
+            <div class="chat-history" id="chat-history">
+                <div class="chat-bubble user">I want something cheap</div>
+                <div class="chat-bubble system">Hello Your Majesty! The cheapest offer is Mie Ayam Jamur - 18k</div>
+                <div class="chat-bubble user">I want something spicy</div>
+                <div class="chat-bubble system">Hello Your Majesty! The best spicy offer is Sate Taichan - 25k</div>
+            </div>
+            <input type="text" id="chat-input" placeholder="Type your message...">
+            <button id="order-btn">Order Now</button>
+        </aside>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
